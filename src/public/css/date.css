@@ -1,0 +1,56 @@
+.date__top {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.date__ttl {
+    margin-top: 30px;
+}
+
+table {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    display: flex;
+    border-top: 2px solid #bcbcbc;
+}
+
+th {
+    font-size: 22px;
+    padding: 15px 90px;
+}
+
+td {
+    font-size: 22px;
+    padding: 15px 90px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 440px;
+
+}
+
+.page-item {
+    list-style: none;
+}
+
+.page-link {
+    padding: 0.5em 0.75em;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: blue;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    color: #fff;
+    background-color: blue;
+    border-color: #dee2e6;
+}

@@ -1,0 +1,79 @@
+main {
+
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+.register__ttl {
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 630px;
+}
+
+.form__error {
+    color: red;
+    font-weight: bold;
+    text-align: left;
+}
+
+.name {
+    height: 55px;
+    width: 450px;
+    border-radius: 5px;
+    border-color: #a4a4a4;
+    font-size: 15px;
+}
+
+.email {
+    height: 55px;
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: #a4a4a4;
+    font-size: 15px;
+}
+
+.pass {
+    height: 55px;
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: #a4a4a4;
+    font-size: 15px;
+}
+
+.pass2 {
+    height: 55px;
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: #a4a4a4;
+    font-size: 15px;
+}
+
+.btn {
+    height: 55px;
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: #a4a4a4;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.register__link p {
+    font-size: 18px;
+}
+
+.register__link a {
+    font-size: 18px;
+    color: blue;
+}

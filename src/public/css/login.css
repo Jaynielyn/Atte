@@ -1,0 +1,55 @@
+.login {
+    text-align: center;
+}
+
+.login__ttl {
+    font-size: 30px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 630px;
+}
+
+.email {
+    height: 60px;
+    width: 450px;
+    border-radius: 5px;
+    border-color: #a4a4a4;
+    font-size: 15px;
+}
+
+.pass {
+    height: 60px;
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: #a4a4a4;
+    font-size: 15px;
+}
+
+.login__btn {
+    height: 65px;
+    width: 460px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login__link {
+    margin-top: 40px;
+}
+
+.login__link p {
+    font-size: 18px;
+}
+
+.login__link a {
+    font-size: 18px;
+    color: blue;
+}

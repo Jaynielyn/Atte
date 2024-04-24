@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+}
+
+header {
+    height: 10%;
+}
+
+.ttl {
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    height: 80%;
+}
+
+footer {
+    text-align: center;
+}
+
+small {
+    height: 10%;
+    margin-top: 370px;
+    font-weight: bold;
+}
