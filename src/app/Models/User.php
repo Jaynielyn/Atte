@@ -41,4 +41,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    //stamp関連付け
+    public function stamp()
+    {
+        return $this->hasMany('App\Models\Stamp');
+    }
 }

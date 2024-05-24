@@ -19,7 +19,7 @@
         <nav>
             <ul>
                 @if (Auth::check())
-                <li><a class="menu__link" href="/stamp">ホーム</a></li>
+                <li><a class="menu__link" href="/">ホーム</a></li>
                 <li><a class="menu__link" href="/date">日付一覧</a></li>
                 <li>
                     <form class="form" action="/logout" method="post">

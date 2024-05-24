@@ -15,5 +15,6 @@ use App\Http\Controllers\AtteController;
 */
 
 Route::middleware('auth')->group(function () {
-    Route::get('/stamp', [AtteController::class, 'index']);
+    Route::get('/', [AtteController::class, 'index']);
+    Route::post('/', [AtteController::class, 'store']);
 });
